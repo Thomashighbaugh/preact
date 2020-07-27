@@ -1,10 +1,10 @@
-import { h, Component } from 'preact';
-import style from './style';
+import { h, Component } from "preact";
+import style from "./style";
 
 export default class Profile extends Component {
   state = {
     time: Date.now(),
-    count: 10,
+    count: 500,
   };
 
   // update the current time
@@ -30,14 +30,14 @@ export default class Profile extends Component {
   // Note: `user` comes from the URL, courtesy of our router
   render({ user }, { time, count }) {
     return (
-      <div class={style.profile}>
-        <h1>Profile: {user}</h1>
-        <p>This is the user profile for a user named {user}.</p>
+      <div class={style.profile} >
+        <h1>Functionality Test Page</h1>
+        <p>Here are some super simple react functions, really JS functions, to test the Preact rendering of such.</p>
 
         <div>Current time: {new Date(time).toLocaleString()}</div>
 
         <p>
-          <button onClick={this.increment}>Click Me</button> Clicked {count}{' '}
+          <button onClick={this.increment}>Click Me</button> Clicked {count}{" "}
           times.
         </p>
       </div>

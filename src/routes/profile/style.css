@@ -1,5 +1,24 @@
 .profile {
-	padding: 56px 20px;
-	min-height: 100%;
-	width: 100%;
+  margin: 5rem 2rem;
+  background: #414356;
+  border: inset #7f5af0 0.25rem;
+  border-radius: 18px;
+  color: #fffffe;
+  padding: 1rem;
+}
+.profile button{
+  background: #414356;
+  color: #fffffe;
+  text-shadow: #7f5af0 0.125rem 0.125rem;
+font-weight: 900;
+  font-family: "Chela One", sans-serif;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+  border-radius: 12px;
+  border: solid 0.25rem #fffffe;
+}
+.profile button:hover{
+  color: #fffffe;
+  text-shadow: #657786 0.125rem 0.125rem;
+  border-color: #fffffe;
 }
