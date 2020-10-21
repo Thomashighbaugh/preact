@@ -30,7 +30,7 @@
     "preact-render-to-string": "^4.1.0",
     "preact-router": "^3.2.1",
     "prettier": "2.1.2",
-    "react": "^16.13.1"
+    "react": "^17.0.0"
   },
   "jest": {
     "verbose": true,
