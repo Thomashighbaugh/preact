@@ -27,7 +27,7 @@
     "preact": "10.5.3",
     "preact-compat": "^3.17.0",
     "preact-helmet": "^4.0.0-alpha-3",
-    "preact-render-to-string": "^4.1.0",
+    "preact-render-to-string": "^5.1.12",
     "preact-router": "^3.2.1",
     "prettier": "2.1.2",
     "react": "^16.13.1"
