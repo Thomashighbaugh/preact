@@ -30,7 +30,7 @@
     "preact-helmet": "4.0.0-alpha-3",
     "preact-router": "3.2.1",
     "prettier": "2.2.1",
-    "react": "16.14.0"
+    "react": "17.0.1"
   },
   "jest": {
     "verbose": true,
