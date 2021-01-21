@@ -25,7 +25,7 @@
   "dependencies": {
     "preact-render-to-string": "5.1.12",
     "header": "0.1.1",
-    "preact": "10.5.10",
+    "preact": "10.5.11",
     "preact-compat": "3.19.0",
     "preact-helmet": "4.0.0-alpha-3",
     "preact-router": "3.2.1",
